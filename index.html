@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cozy Coder</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <div class="logo">
+                <span class="logo-the">The</span>
+                <span class="logo-name">Cozy Coder</span>
+            </div>
+            
+            <nav class="desktop-nav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            
+            <div class="menu-btn">
+                <div class="menu-icon">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="mobile-menu">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+    </div>
+
+    
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hello, I'm a <span class="highlight">Cozy Coder</span></h1>
+            <p class="hero-subtitle">I create cozy, efficient, and beautiful projects</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="code-snippet">
+                <pre>
+                    <code>
+function TheCozyCode() {
+  const skills = [
+    "React",
+    "JavaScript",
+    "CSS",
+    "HTML"
+  ];
+  
+  return (
+    <div>
+      {skills.map(skill => 
+        <span>✨ {skill}</span>
+      )}
+    </div>
+  );
+}
+                    </code>
+                </pre>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="about" class="about">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-image">
+                <div class="image-container">
+                    
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+                <p>Hello! I'm a passionate web developer with a love for creating elegant, user-friendly websites. My journey in web development started with a curiosity about how websites work and has evolved into a career focused on crafting meaningful digital experiences.</p>
+                
+                <p>I specialize in front-end development, bringing designs to life with clean code and attention to detail. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a cozy cup of tea while reading tech blogs.</p>
+
+                <div class="about-skills">
+                    <div class="skill-tag">HTML</div>
+                    <div class="skill-tag">CSS</div>
+                    <div class="skill-tag">JavaScript</div>
+                    <div class="skill-tag">React</div>
+                    <div class="skill-tag">Responsive Design</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+           
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project-placeholder.jpg" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3>E-Commerce Website</h3>
+                    <p>A fully responsive e-commerce platform with shopping cart functionality.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-globe"></i> Live Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+  
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project-placeholder.jpg" alt="Project 2">
+                </div>
+                <div class="project-info">
+                    <h3>Recipe App</h3>
+                    <p>A recipe search application that lets users find and save their favorite recipes.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-globe"></i> Live Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+           
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project-placeholder.jpg" alt="Project 3">
+                </div>
+                <div class="project-info">
+                    <h3>Weather Dashboard</h3>
+                    <p>A weather application that displays current and forecasted weather data for any location.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fas fa-globe"></i> Live Demo</a>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>email@example.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>New York, NY</span>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" name="contact" method="POST" data-netlify="true">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 The Cozy Coder. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
